@@ -1,0 +1,41 @@
+.vacancy {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 30px;
+  min-height: 521px;
+  border-radius: 36px;
+
+  background: linear-gradient(135deg, #efefef 0%, #fcfcfc 100%);
+  box-shadow: -4px 4px 10px 0px #0f0f0f29 inset;
+  word-break: break-all;
+
+  .title {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 49.03px;
+    margin-bottom: 10px;
+    color: #212121;
+  }
+
+  .grade {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27.24px;
+    color: #212121b2;
+  }
+  .subtitle {
+    margin: 10px 0;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32.68px;
+    color: #212121;
+  }
+
+  .description {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27.24px;
+    color: #212121;
+  }
+}

@@ -1,0 +1,14 @@
+.vacanciesList {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 25px;
+  width: 100%;
+
+  margin-bottom: 50px;
+}
+
+@media (max-width: 976px) {
+  .vacanciesList {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,48 @@
+.contactus {
+  min-height: 100vh;
+  padding: 50px 200px 50px 200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .title {
+    align-self: flex-start;
+    margin-bottom: 25px;
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 87.16px;
+    color: var(--white);
+  }
+}
+
+@media (max-width: 1440px) {
+  .contactus {
+    padding: 50px 100px 50px 100px;
+  }
+}
+
+@media (max-width: 768px) {
+  .contactus {
+    padding: 50px;
+    .title {
+      font-size: 44.8px;
+      line-height: 61px;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .contactus {
+    padding: 50px 25px 50px 25px;
+    .title {
+      font-size: 32px;
+      line-height: 43.58px;
+    }
+  }
+}
+
+// @media (max-width: 400px) {
+//   .contactus {
+//     padding: 50px 10px 50px 10px;
+//   }
+// }
