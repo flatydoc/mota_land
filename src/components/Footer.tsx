@@ -44,7 +44,9 @@ export default function Footer() {
           <p className={styles.title}>Follow Us</p>
           <ul className={styles.socialList}>
             <li className={styles.socialListItem}>
-              <a href="#" className={styles.link}>
+              <a
+                href="https://www.instagram.com/motagames_studio?igsh=bjdvOXRjYWNjeWV4"
+                className={styles.link}>
                 <Image
                   className={styles.icon}
                   src="/inst.svg"
@@ -56,23 +58,13 @@ export default function Footer() {
               </a>
             </li>
             <li className={styles.socialListItem}>
-              <a href="#" className={styles.link}>
+              <a
+                href="https://www.linkedin.com/company/mota-games/"
+                className={styles.link}>
                 <Image
                   className={styles.icon}
                   src="/linkedin.svg"
                   alt="Linkedin Logo"
-                  width={30}
-                  height={30}
-                  priority
-                />
-              </a>
-            </li>
-            <li className={styles.socialListItem}>
-              <a href="#" className={styles.link}>
-                <Image
-                  className={styles.icon}
-                  src="/fb.svg"
-                  alt="Facebook Logo"
                   width={30}
                   height={30}
                   priority
